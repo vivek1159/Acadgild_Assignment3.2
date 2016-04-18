@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.vivek.assignment22.MainActivity">
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:background="@color/Red"
+        android:id="@+id/red"
+        android:text="RED"
+        />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:background="@color/Orange"
+        android:id="@+id/orange"
+        android:text="ORANGE"
+        />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:background="@color/Yellow"
+        android:id="@+id/yellow"
+        android:text="YELLOW"
+        />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:background="@color/Green"
+        android:id="@+id/green"
+        android:text="GREEN"
+        />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:background="@color/Blue"
+        android:id="@+id/blue"
+        android:text="BLUE"
+        />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:background="@color/Indigo"
+        android:id="@+id/indigo"
+        android:text="INDIGO"
+        />
+
+    <TextView
+        style="@style/TextViewStyle"
+        android:background="@color/Violet"
+        android:id="@+id/violet"
+        android:text="VIOLET"
+        />
+
+</LinearLayout>
+</ScrollView>
